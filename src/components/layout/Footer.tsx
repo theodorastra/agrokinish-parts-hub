@@ -10,10 +10,25 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           {/* Company Info */}
           <div>
-            <h3 className="text-xl font-bold mb-4">Agrokinish Strapatsas</h3>
+            <div className="flex items-center mb-4">
+              <div className="mr-2 relative">
+                <div>
+                  <svg width="30" height="30" viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M80,60 A20,20 0 1,1 120,60" stroke="#a0a0a0" strokeWidth="15" fill="none" />
+                    <path d="M60,80 A20,20 0 1,1 60,120" stroke="#a0a0a0" strokeWidth="15" fill="none" />
+                    <path d="M80,140 A20,20 0 1,1 120,140" stroke="#a0a0a0" strokeWidth="15" fill="none" />
+                    <path d="M140,80 A20,20 0 1,1 140,120" stroke="#a0a0a0" strokeWidth="15" fill="none" />
+                    <circle cx="100" cy="100" r="10" fill="#8eb255" />
+                    <path d="M90,80 Q100,60 110,80 L100,100 Z" fill="#8eb255" />
+                    <path d="M120,90 Q140,100 120,110 L100,100 Z" fill="#8eb255" />
+                  </svg>
+                </div>
+              </div>
+              <h3 className="text-xl font-bold logo-text">ΑΓΡΟΚΙΝΗΣΗ ΣΤΡΑΠΑΤΣΑΣ</h3>
+            </div>
             <p className="mb-4">
               Your trusted supplier of spare parts for cars, tractors, and
-              agricultural machinery.
+              agricultural machinery since 1985.
             </p>
             <div className="flex space-x-4">
               <Button variant="ghost" size="icon" className="rounded-full hover:bg-white/20">
@@ -33,27 +48,27 @@ const Footer = () => {
             <h3 className="text-xl font-bold mb-4">Quick Links</h3>
             <ul className="space-y-2">
               <li>
-                <Link to="/products" className="hover:text-agro-orange transition-colors">
+                <Link to="/products" className="hover:text-agro-lightgreen transition-colors">
                   All Products
                 </Link>
               </li>
               <li>
-                <Link to="/products?category=car-parts" className="hover:text-agro-orange transition-colors">
+                <Link to="/products?category=car-parts" className="hover:text-agro-lightgreen transition-colors">
                   Car Parts
                 </Link>
               </li>
               <li>
-                <Link to="/products?category=tractor-parts" className="hover:text-agro-orange transition-colors">
+                <Link to="/products?category=tractor-parts" className="hover:text-agro-lightgreen transition-colors">
                   Tractor Parts
                 </Link>
               </li>
               <li>
-                <Link to="/about" className="hover:text-agro-orange transition-colors">
+                <Link to="/about" className="hover:text-agro-lightgreen transition-colors">
                   About Us
                 </Link>
               </li>
               <li>
-                <Link to="/contact" className="hover:text-agro-orange transition-colors">
+                <Link to="/contact" className="hover:text-agro-lightgreen transition-colors">
                   Contact
                 </Link>
               </li>
@@ -70,7 +85,7 @@ const Footer = () => {
               </div>
               <div className="flex items-center">
                 <Phone className="h-5 w-5 mr-3" />
-                <span>+30 123 456 7890</span>
+                <span>24310 74804</span>
               </div>
               <div className="flex items-center">
                 <Mail className="h-5 w-5 mr-3" />
@@ -81,7 +96,7 @@ const Footer = () => {
         </div>
 
         <div className="border-t border-white/20 mt-8 pt-6 text-sm text-center">
-          <p>© {new Date().getFullYear()} Agrokinish Strapatsas. All rights reserved.</p>
+          <p>© {new Date().getFullYear()} Αγροκίνηση Στραπατσάς. All rights reserved.</p>
         </div>
       </div>
     </footer>

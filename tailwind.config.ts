@@ -64,11 +64,15 @@ export default {
 					ring: 'hsl(var(--sidebar-ring))'
 				},
                 agro: {
-                    'green': '#2B5329',
+                    'green': '#7a9745',
+                    'lightgreen': '#8eb255',
+                    'darkgreen': '#546831',
                     'brown': '#8B5E34',
                     'lightgray': '#F5F5F5',
                     'darkgray': '#333333',
+                    'gray': '#999999',
                     'orange': '#D35400',
+                    'gear': '#a0a0a0',
                 }
 			},
 			borderRadius: {

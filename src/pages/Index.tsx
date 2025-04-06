@@ -1,6 +1,5 @@
 
 import Hero from "@/components/home/Hero";
-import MapSection from "@/components/home/MapSection";
 import CategorySection from "@/components/home/CategorySection";
 import FeaturedProducts from "@/components/home/FeaturedProducts";
 import Navbar from "@/components/layout/Navbar";
@@ -12,7 +11,6 @@ const Index = () => {
       <Navbar />
       <main className="flex-grow">
         <Hero />
-        <MapSection />
         <CategorySection />
         <FeaturedProducts />
         

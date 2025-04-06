@@ -1,7 +1,7 @@
 
 import { Link } from "react-router-dom";
 import { Button } from "@/components/ui/button";
-import { ChevronRight } from "lucide-react";
+import { ChevronRight, MapPin } from "lucide-react";
 
 const Hero = () => {
   return (
@@ -15,9 +15,20 @@ const Hero = () => {
           Quality Spare Parts for <br className="hidden md:block" />
           <span className="text-agro-lightgreen">Every Machine</span>
         </h1>
-        <p className="text-xl text-white mb-8 max-w-lg">
+        <p className="text-xl text-white mb-4 max-w-lg">
           Your trusted supplier of high-quality spare parts for cars, tractors, and agricultural machinery since 1985.
         </p>
+        <div className="flex items-center text-white mb-8">
+          <MapPin className="h-5 w-5 mr-2" />
+          <a 
+            href="https://www.google.com/maps?ll=39.562054,21.781983&z=19&t=m&hl=el-GR&gl=US&mapclient=embed&cid=14693062615977998788" 
+            target="_blank" 
+            rel="noopener noreferrer"
+            className="hover:text-agro-lightgreen transition-colors"
+          >
+            Αγροκίνηση Στραπάτσας Ι.Κ.Ε, Τρίκαλα
+          </a>
+        </div>
         <div className="flex flex-col sm:flex-row gap-4">
           <Button asChild size="lg" className="bg-agro-orange hover:bg-agro-orange/90">
             <Link to="/products">

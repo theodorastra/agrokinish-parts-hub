@@ -2,12 +2,13 @@
 import { Link } from "react-router-dom";
 import { Facebook, Instagram, Mail, MapPin, Phone } from "lucide-react";
 import { Button } from "@/components/ui/button";
+import GoogleMap from "../common/GoogleMap";
 
 const Footer = () => {
   return (
     <footer className="bg-agro-darkgray text-white pt-12 pb-6">
       <div className="container mx-auto px-4">
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-8">
           {/* Company Info */}
           <div>
             <div className="flex items-center mb-4">
@@ -78,10 +79,10 @@ const Footer = () => {
           {/* Contact Info */}
           <div>
             <h3 className="text-xl font-bold mb-4">Contact Us</h3>
-            <div className="space-y-3">
+            <div className="space-y-3 mb-4">
               <div className="flex items-start">
                 <MapPin className="h-5 w-5 mr-3 mt-0.5" />
-                <span>123 Agricultural Road, Athens, Greece</span>
+                <span>Αγροκίνηση Στραπάτσας Ι.Κ.Ε, Τρίκαλα</span>
               </div>
               <div className="flex items-center">
                 <Phone className="h-5 w-5 mr-3" />
@@ -93,6 +94,11 @@ const Footer = () => {
               </div>
             </div>
           </div>
+        </div>
+        
+        {/* Map */}
+        <div className="mt-8 mb-8">
+          <GoogleMap className="max-h-[300px]" />
         </div>
 
         <div className="border-t border-white/20 mt-8 pt-6 text-sm text-center">

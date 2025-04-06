@@ -5,9 +5,9 @@ import { ChevronRight, MapPin } from "lucide-react";
 
 const Hero = () => {
   return (
-    <div className="relative h-[500px] bg-gradient-to-r from-agro-green to-agro-darkgreen">
+    <div className="relative h-[500px] bg-cover bg-center" style={{backgroundImage: "url('/agrokinish-background.jpg')"}}>
       {/* Background overlay */}
-      <div className="absolute inset-0 bg-black/30"></div>
+      <div className="absolute inset-0 bg-black/50"></div>
       
       {/* Hero content */}
       <div className="container mx-auto px-4 h-full flex flex-col justify-center items-start relative z-10">

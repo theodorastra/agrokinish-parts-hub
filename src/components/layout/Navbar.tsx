@@ -41,16 +41,16 @@ const Navbar = () => {
           {/* Desktop Navigation */}
           <div className="hidden md:flex items-center space-x-8">
             <Link to="/" className="text-white hover:text-agro-lightgreen font-medium">
-              Home
+              Αρχική
             </Link>
             <Link to="/products" className="text-white hover:text-agro-lightgreen font-medium">
-              Products
+              Προϊόντα
             </Link>
             <Link to="/about" className="text-white hover:text-agro-lightgreen font-medium">
-              About Us
+              Σχετικά
             </Link>
             <Link to="/contact" className="text-white hover:text-agro-lightgreen font-medium">
-              Contact
+              Επικοινωνία
             </Link>
           </div>
 
@@ -83,20 +83,20 @@ const Navbar = () => {
         {isMenuOpen && (
           <div className="md:hidden pt-2 pb-4 px-4 space-y-4 bg-agro-green text-white">
             <Link to="/" className="block py-2 text-white hover:text-agro-lightgreen font-medium">
-              Home
+              Αρχική
             </Link>
             <Link to="/products" className="block py-2 text-white hover:text-agro-lightgreen font-medium">
-              Products
+              Προϊόντα
             </Link>
             <Link to="/about" className="block py-2 text-white hover:text-agro-lightgreen font-medium">
-              About Us
+              Σχετικά
             </Link>
             <Link to="/contact" className="block py-2 text-white hover:text-agro-lightgreen font-medium">
-              Contact
+              Επικοινωνία
             </Link>
             <div className="pt-2 flex items-center">
               <Button variant="outline" className="w-full border-white text-white hover:bg-white hover:text-agro-green">
-                <Search className="h-4 w-4 mr-2" /> Search
+                <Search className="h-4 w-4 mr-2" /> Αναζήτηση
               </Button>
             </div>
           </div>

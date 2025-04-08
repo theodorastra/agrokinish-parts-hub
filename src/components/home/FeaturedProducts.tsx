@@ -8,7 +8,7 @@ import { ProductProps } from "../product/ProductCard";
 const featuredProducts: ProductProps[] = [
   {
     id: "1",
-    name: "Tractor Engine Air Filter",
+    name: "Φίλτρο Αέρα Τρακτέρ",
     price: 39.99,
     image: "https://images.unsplash.com/photo-1620716571877-f1bf5b892b9f?auto=format&fit=crop&w=500&h=300",
     category: "Tractor Parts",
@@ -17,7 +17,7 @@ const featuredProducts: ProductProps[] = [
   },
   {
     id: "2",
-    name: "Car Brake Pads Set",
+    name: "Σετ Τακάκια Φρένων",
     price: 45.50,
     image: "https://images.unsplash.com/photo-1497491249088-11e2d137b3f9?auto=format&fit=crop&w=500&h=300",
     category: "Car Parts",
@@ -26,7 +26,7 @@ const featuredProducts: ProductProps[] = [
   },
   {
     id: "3",
-    name: "Hydraulic Oil Filter",
+    name: "Φίλτρο Υδραυλικού Λαδιού",
     price: 18.95,
     image: "https://images.unsplash.com/photo-1615800098779-1be32e60cca3?auto=format&fit=crop&w=500&h=300",
     category: "Machinery Parts",
@@ -35,7 +35,7 @@ const featuredProducts: ProductProps[] = [
   },
   {
     id: "4",
-    name: "Premium Fuel Filter",
+    name: "Φίλτρο Καυσίμου Premium",
     price: 22.99,
     image: "https://images.unsplash.com/photo-1619725557513-9e353609f20b?auto=format&fit=crop&w=500&h=300",
     category: "Car Parts",
@@ -52,14 +52,14 @@ const FeaturedProducts = () => {
         <div className="flex flex-col md:flex-row justify-between items-start md:items-end mb-8">
           <div>
             <h2 className="text-3xl md:text-4xl font-bold mb-2 text-agro-darkgray">
-              Featured Products
+              Προτεινόμενα Προϊόντα
             </h2>
             <p className="text-lg text-gray-600">
-              Our most popular high-quality spare parts
+              Τα πιο δημοφιλή ανταλλακτικά υψηλής ποιότητας
             </p>
           </div>
           <Button asChild variant="outline" className="mt-4 md:mt-0">
-            <Link to="/products">View All Products</Link>
+            <Link to="/products">Όλα τα Προϊόντα</Link>
           </Button>
         </div>
         

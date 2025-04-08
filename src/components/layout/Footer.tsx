@@ -28,8 +28,8 @@ const Footer = () => {
               <h3 className="text-xl font-bold logo-text">ΑΓΡΟΚΙΝΗΣΗ ΣΤΡΑΠΑΤΣΑΣ</h3>
             </div>
             <p className="mb-4">
-              Your trusted supplier of spare parts for cars, tractors, and
-              agricultural machinery since 1985.
+              Ο αξιόπιστος προμηθευτής σας για ανταλλακτικά αυτοκινήτων, τρακτέρ και
+              γεωργικών μηχανημάτων από το 1985.
             </p>
             <div className="flex space-x-4">
               <Button variant="ghost" size="icon" className="rounded-full hover:bg-white/20">
@@ -46,31 +46,31 @@ const Footer = () => {
 
           {/* Quick Links */}
           <div>
-            <h3 className="text-xl font-bold mb-4">Quick Links</h3>
+            <h3 className="text-xl font-bold mb-4">Γρήγοροι Σύνδεσμοι</h3>
             <ul className="space-y-2">
               <li>
                 <Link to="/products" className="hover:text-agro-lightgreen transition-colors">
-                  All Products
+                  Όλα τα Προϊόντα
                 </Link>
               </li>
               <li>
                 <Link to="/products?category=car-parts" className="hover:text-agro-lightgreen transition-colors">
-                  Car Parts
+                  Ανταλλακτικά Αυτοκινήτων
                 </Link>
               </li>
               <li>
                 <Link to="/products?category=tractor-parts" className="hover:text-agro-lightgreen transition-colors">
-                  Tractor Parts
+                  Ανταλλακτικά Τρακτέρ
                 </Link>
               </li>
               <li>
                 <Link to="/about" className="hover:text-agro-lightgreen transition-colors">
-                  About Us
+                  Σχετικά με εμάς
                 </Link>
               </li>
               <li>
                 <Link to="/contact" className="hover:text-agro-lightgreen transition-colors">
-                  Contact
+                  Επικοινωνία
                 </Link>
               </li>
             </ul>
@@ -78,7 +78,7 @@ const Footer = () => {
 
           {/* Contact Info */}
           <div>
-            <h3 className="text-xl font-bold mb-4">Contact Us</h3>
+            <h3 className="text-xl font-bold mb-4">Επικοινωνία</h3>
             <div className="space-y-3 mb-4">
               <div className="flex items-start">
                 <MapPin className="h-5 w-5 mr-3 mt-0.5" />
@@ -102,7 +102,7 @@ const Footer = () => {
         </div>
 
         <div className="border-t border-white/20 mt-8 pt-6 text-sm text-center">
-          <p>© {new Date().getFullYear()} Αγροκίνηση Στραπατσάς. All rights reserved.</p>
+          <p>© {new Date().getFullYear()} Αγροκίνηση Στραπατσάς. Με επιφύλαξη παντός δικαιώματος.</p>
         </div>
       </div>
     </footer>
